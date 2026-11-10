@@ -1,11 +1,11 @@
+import { Link } from 'react-router'
 export default function Home() {
     return (
       <>
         <section className="hero">
           <h1>iPhone 17 Pro</h1>
           <p>Mạnh mẽ. Đẳng cấp. Chuyên nghiệp.</p>
-          <a href="/products" className="btn">Mua ngay</a>
-        </section>
+          <Link to="/products" className="btn">Mua ngay</Link>        </section>
   
         <section className="featured">
           <h2>Sản phẩm nổi bật</h2>
