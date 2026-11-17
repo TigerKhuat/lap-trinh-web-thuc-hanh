@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# ASP.NET Core and SQLite
+backend/bin/
+backend/obj/
+backend/*.db
+backend/*.db-*
